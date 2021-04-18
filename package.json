@@ -1,0 +1,16 @@
+{
+  "name": "raspi-robot-broadcaster",
+  "version": "1.0.0",
+  "description": "Der zu steuernde Roboter, der das Bild an den Server überträgt und Steuersignale entgegennimmt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raspivid": "^1.0.0",
+    "socket.io-client": "^4.0.1",
+    "stream-split": "^1.1.0"
+  }
+}
