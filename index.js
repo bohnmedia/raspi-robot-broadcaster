@@ -10,6 +10,7 @@ const broadcaster = new Broadcaster({
     },
     websocket: {
         server: 'https://robot.bohn.media',
+        room: 'uturm',
         authToken: 'RzDQOtxN9E2fW8iOk51spw9GftgKPDEgQxZ9uRbA7T0q4YaA7kKRKJWquDpqZlEG'
     }
 });
