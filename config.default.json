@@ -1,0 +1,14 @@
+{
+    "video": {
+        "width": 1280,
+        "height": 720,
+        "framerate": 20,
+        "profile": 'baseline',
+        "timeout": 0
+    },
+    "websocket": {
+        "server": "https://my.server",
+        "room": "room1",
+        "authToken": "RzDQOtxN9E2fW8iOk51spw9GftgKPDEgQxZ9uRbA7T0q4YaA7kKRKJWquDpqZlEG"
+    }
+}

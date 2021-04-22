@@ -1,9 +1,10 @@
 const Broadcaster = require('./lib/Broadcaster');
+const config = JSON.parse(require('fs').readFileSync('config.json'));
 
 const broadcaster = new Broadcaster({
     video: {
-        width: 960,
-        height: 540,
+        width: 1280,
+        height: 720,
         framerate: 20,
         profile: 'baseline',
         timeout: 0
@@ -11,6 +12,6 @@ const broadcaster = new Broadcaster({
     websocket: {
         server: 'https://robot.bohn.media',
         room: 'uturm',
-        authToken: 'RzDQOtxN9E2fW8iOk51spw9GftgKPDEgQxZ9uRbA7T0q4YaA7kKRKJWquDpqZlEG'
+        authToken: 'eeI0YUjAaLAwss2TbVOtpaZKLOc6abfcgB50ZuwI2WMzIzTC9YzkJrYiIk83R8f1'
     }
 });
