@@ -3,7 +3,7 @@
         "width": 1280,
         "height": 720,
         "framerate": 20,
-        "profile": 'baseline',
+        "profile": "baseline",
         "timeout": 0
     },
     "websocket": {
